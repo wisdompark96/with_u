@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">윗유</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="url">http://api.data.go.kr/openapi/stret-tursm-info-std</string>
+    <string name="server_client_id">921107303739-41a334dlta9jqm0039rnphh8d7omuha0.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">184783305594275</string>
+
+</resources>

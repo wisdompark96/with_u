@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <tab
+            id="@+id/home"
+            icon="@mipmap/ic_home_black_24dp"
+            title="Home"></tab>
+        <tab
+            id="@+id/diary"
+            icon="@mipmap/ic_list_black_24dp"
+            title="Diary"></tab>
+        <tab
+            id="@+id/date"
+            icon="@mipmap/ic_search_black_24dp"
+            title="Date"></tab>
+        <tab
+            id="@+id/calendar"
+            icon="@drawable/calendar"
+            title="Calendar"></tab>
+</tabs>

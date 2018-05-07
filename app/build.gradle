@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '27.0.1'
+    defaultConfig {
+        applicationId "lecture.mobile.final_project.ma01_20150995"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+
+    compile 'com.android.support:appcompat-v7:25.3.0'
+    compile 'com.roughike:bottom-bar:2.3.1'
+    compile 'com.android.support:support-v4:25.3.0'
+    compile 'com.google.android.gms:play-services-maps:11.0.4'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.riontech:calendar:1.0'
+    compile 'com.prolificinteractive:material-calendarview:1.4.3'
+    compile 'com.orhanobut:dialogplus:1.11@aar'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.valuesfeng:androidpicturepicker:1.0.0'
+    compile 'com.yinglan.shadowimageview:shadowimageview:1.0.4'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.android.support:recyclerview-v7:25.3.0'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.commit451:PhotoView:1.2.4'
+    compile 'com.yongchun:com.yongchun.imageselector:1.1.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+    compile 'com.github.stfalcon:frescoimageviewer:0.5.0'
+    compile 'com.isseiaoki:simplecropview:1.1.7'
+    compile 'com.facebook.fresco:fresco:1.7.1'
+
+
+
+
+
+
+
+    testCompile 'junit:junit:4.12'
+}

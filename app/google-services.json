@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921107303739",
+    "project_id": "starlit-woods-185902"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921107303739:android:16a9a94067883ab3",
+        "android_client_info": {
+          "package_name": "dongduk.mobile.exam.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921107303739-6hemr6fo02ts9b0h01hpp7uucrqgmi92.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "921107303739-41a334dlta9jqm0039rnphh8d7omuha0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dongduk.mobile.exam.afinal",
+            "certificate_hash": "869080d5f0552150c779fe0f2bd283ac236977ce"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1DnJ4a7Uiv3vz4e0cUabxbnqRfezKvMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

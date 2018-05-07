@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dongduk.mobile.exam.afinal.lecture.mobile.exam.afinal.MainActivity">
+
+    <item
+        android:id="@+id/backg_image"
+        android:orderInCategory="100"
+        android:title="배경화면변경"
+        app:showAsAction="always"/>
+</menu>
